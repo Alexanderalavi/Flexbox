@@ -9,6 +9,9 @@
     src: url(/assets/fonts/OpenSans-Regular.ttf);
 }
 
+*{
+    background-color: #e4e4e4;
+}
 body{
    margin: 0;
    display: flex;
@@ -30,6 +33,7 @@ nav{
     justify-content: space-between;
     height: 5em;
     align-items: center;
+    background-color: white;
 }
 
 .muser{
@@ -38,6 +42,7 @@ nav{
     margin: 1rem;
     gap: 1em;
     line-height: 0.6;
+    background-color: white;
     
 }
 nav ul{
@@ -45,6 +50,7 @@ display: flex;
 margin: 0;
 padding: 0;
 flex-direction: column; 
+background-color: white;
 
 
 }
@@ -54,6 +60,7 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
     height:120px;
+    background-color: white;
 }
 
 .boton{
@@ -75,12 +82,14 @@ font-size: 16px;
 
 .simbolo{
     color: #969696;
+    background-color: white;
 }
 nav li{
     padding: 1em;
     list-style: none;
-    border: 1px solid #969696;
+    border: 1px solid #a3a3a3;
     border-top: 0px;
+    background-color: white;
 }
 
 .cajas{
@@ -92,6 +101,7 @@ nav li{
     font-family: 'OPRE';
     font-size: 1.4em;
     font-weight: bold;
+    background-color: white;
 }
 
 .status{
@@ -99,6 +109,7 @@ nav li{
     font-family:'OPRE';
     font-size: 0.5em;
     font-weight: normal;
+    background-color: white;
  
 }
 
@@ -126,7 +137,7 @@ nav li{
     width:50px;
     height:50px;
     border-radius:150px;
-    border:1px solid rgb(184, 175, 175) ;
+    border:1px solid rgb(194, 189, 189) ;
     margin-top: 1em;
     margin-left:30px;
 }
@@ -136,6 +147,7 @@ nav li{
     font-family:'OPRE';
     font-size: 0.8em; 
     font-weight: normal;
+    background-color: white;
 }
 
 .main{
@@ -144,4 +156,5 @@ nav li{
     flex-direction: column;
     align-items: center;
     margin-left: 300px;
+
 }
