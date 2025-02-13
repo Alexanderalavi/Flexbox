@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OPRE';
+    src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+
+body{
+   margin: 0;
+   display: flex;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 10em; 
+   min-height: 100vh;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 20em;
+    justify-content: space-between;
+    height: 5em;
+    align-items: center;
+}
+
+.muser{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 1em;
+    line-height: 0.6;
+    
+}
+nav ul{
+display: flex;
+margin: 0;
+padding: 0;
+flex-direction: column; 
+
+
+}
+
+.cajagrande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120px;
+}
+
+.boton{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background-color: #A491D2;
+font-family: 'OPRE';
+width: 200px;
+height: 50px;
+font-size: 16px;
+}
+
+.boton p{
+    color: white;
+    background-color: #A491D2;
+}
+
+.simbolo{
+    color: #969696;
+}
+nav li{
+    padding: 1em;
+    list-style: none;
+    border: 1px solid #969696;
+    border-top: 0px;
+}
+
+.cajas{
+    display: flex;
+}
+
+.name{
+    color: black;
+    font-family: 'OPRE';
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.status{
+    color: rgb(180, 180, 180);
+    font-family:'OPRE';
+    font-size: 0.5em;
+    font-weight: normal;
+ 
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content:start;
+    gap: 1em;
+    height: 100px;
+    line-height: 25px;
+}
+
+.img{
+    width:40px;
+    height:40px;
+    border-radius:150px;
+    border:1px solid rgb(184, 175, 175) ;
+    margin-top: 1em;
+    
+}
+
+.img2{
+    width:50px;
+    height:50px;
+    border-radius:150px;
+    border:1px solid rgb(184, 175, 175) ;
+    margin-top: 1em;
+    margin-left:50px;
+}
+
+.estado{
+    color: rgb(0, 0, 0);
+    font-family:'OPRE';
+    font-size: 0.8em; 
+    font-weight: normal;
+}
