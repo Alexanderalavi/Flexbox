@@ -10,18 +10,19 @@
 }
 
 *{
-    background-color: #e4e4e4;
+    background-color:#e8ebe4;
 }
 body{
    margin: 0;
    display: flex;
+   height: 100vh;
 }
 nav{
     margin: 0;
     padding: 0;
     background-color: white;
     width: 10em; 
-   min-height: 100vh;
+
 }
 
 .user{
@@ -74,6 +75,7 @@ width: 200px;
 height: 50px;
 font-size: 16px;
 }
+
 
 .boton p{
     color: white;
@@ -128,7 +130,7 @@ nav li{
     width:40px;
     height:40px;
     border-radius:150px;
-    border:1px solid rgb(184, 175, 175) ;
+    border:1px solid #e8ebe4;
     margin-top: 1em;
     
 }
@@ -137,7 +139,7 @@ nav li{
     width:50px;
     height:50px;
     border-radius:150px;
-    border:1px solid rgb(194, 189, 189) ;
+    border:1px solid #e8ebe4 ;
     margin-top: 1em;
     margin-left:30px;
 }
