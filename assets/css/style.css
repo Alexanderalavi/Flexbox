@@ -56,11 +56,10 @@ background-color: white;
 
 }
 
-.cajagrande{
+.cajaboton{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:120px;
     background-color: white;
 }
 
@@ -74,12 +73,17 @@ font-family: 'OPRE';
 width: 200px;
 height: 50px;
 font-size: 16px;
+margin:30px;
+text-decoration: none;
+
 }
 
+a:hover{
+    background-color: #cdc3e6;
+}
 
-.boton p{
-    color: white;
-    background-color: #A491D2;
+a:focus{
+    background-color: #bec1bb;
 }
 
 .simbolo{
@@ -157,6 +161,28 @@ nav li{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 600px;
+    line-height: 20px;
 
+}
+
+.textomain{
+    font-size: 45px;
+    font-family: 'OPRE';
+}
+
+.textobody{
+    font-size: 14px;
+    font-family: 'OPRE';
+    text-align: center;
+    font-weight: lighter   
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
 }
